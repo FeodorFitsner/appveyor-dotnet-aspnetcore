@@ -1,0 +1,4 @@
+build_script:
+- cd %APPVEYOR_BUILD_FOLDER%\AppVeyorSolution
+- nuget restore
+- msbuild
