@@ -1,4 +1,3 @@
-image: test-vs2015-hyperv
 build_script:
 - cd %APPVEYOR_BUILD_FOLDER%\AppVeyorSolution
 - nuget restore
